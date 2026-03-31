@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Feedback / Survey Form UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ABSTRACT
 
-## Available Scripts
+This project aims to develop a Feedback / Survey Form UI that allows users to provide their opinions, suggestions, and ratings through an interactive web interface. The system is designed to collect user feedback efficiently for improving services, products, or experiences.
 
-In the project directory, you can run:
+The application provides a simple and user-friendly interface where users can fill out forms with details such as name, email, ratings, and comments. The system validates user inputs and ensures proper data collection.
 
-### `npm start`
+This project focuses mainly on the frontend UI design, ensuring a responsive and visually appealing experience. It can be integrated with backend systems to store and analyse feedback data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SOFTWARE REQUIREMENTS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Operating System :
+Any version of Windows / Linux / macOS
 
-### `npm test`
+Frontend :
+HTML5
+CSS3
+JavaScript
+Bootstrap
+Backend (Optional) :
+Node.js / Python
+Framework (Optional) :
+Express.js / Flask
+Database (Optional) :
+MongoDB / MySQL
+RUN USING
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If it is a simple frontend project:
 
-### `npm run build`
+Open index.html in browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If connected with backend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or
+python app.py
+RESULTS
 
-### `npm run eject`
+Home Page :
+home_page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feedback Form :
+feedback_form
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Survey Questions Page :
+survey_questions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Submission Success Page :
+success_page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Error / Validation Page :
+validation_error
 
-## Learn More
+FEATURES
+User-friendly interface
+Responsive design
+Input validation
+Rating system (stars/dropdown)
+Comment section
+Easy integration with backend
+FUTURE ENHANCEMENTS
+Store feedback in database
+Admin dashboard to view responses
+Data analytics and reports
+Authentication system
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
